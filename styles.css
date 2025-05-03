@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+
+}
+.item {
+  flex: 0 1 calc(33.333% - 10px);  /* Set 3 items in a row (taking 1/3rd of the container minus gap) */
+  min-width: 150px;            /* Prevent squashing */
+}
